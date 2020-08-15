@@ -1,0 +1,1177 @@
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #1a1a1a;
+}
+a{
+	text-decoration: none;
+	color: white !important;
+}
+a:hover{
+	text-decoration: none;
+	color: white !important;
+}
+.row{
+	width: 100%;
+	margin-left: 0 !important;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	min-height: 40px;
+	color: white;
+	background: #08b7fe;
+	text-align: center;
+	z-index: 15;
+}
+header .container{
+	position: relative;
+    height: auto;
+	min-height: 6vh;
+	padding: 7px 0;
+}
+header .container .social-link i{
+   margin: 0 4px;
+}
+header .container div p{
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+}
+header .container div i{
+	position: relative;
+	font-size: 13px;
+	display: inline-block;
+}
+nav{
+	position: relative;
+	left: 5%;
+	top: 0;
+	width: 90%;
+	height: auto;
+	padding: 15px 35px !important;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	background: white;
+	z-index: 5;
+}
+nav button{
+	border: none !important;
+}
+nav button:focus {
+    outline: none !important;
+}
+.navbar-brand{
+	font-weight: 600;
+	color: black !important;
+}
+.navbar-brand span{
+    color: #08b7fe;
+}
+.navbar-brand:hover{
+	color: black !important;
+}
+.navbar-expand-lg .navbar-collapse{
+	justify-content: center;
+	padding-right: 100px;
+}
+.navbar-nav li {
+	position: relative;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin: 0 7px;
+	color: black;
+	text-align: center;
+}
+.navbar-nav li a{
+	color: #2a2a2a !important;
+}
+.navbar-nav .active a{
+	color: #08b7fe !important;
+}
+.navbar-nav li:hover{
+	background: #08b7fe;
+}
+.navbar-nav li:hover a{
+	color: white !important;
+}
+
+#showcase{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	min-height: 500px;
+	max-height: 670px;
+	overflow: hidden;
+}
+#showcase:after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0));
+}
+#showcase .showcase-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#showcase .carousel-img-wrapper{
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.3s ease-in-out;
+}
+#showcase .carousel-img-wrapper img{
+    width: 100%;
+    min-height: 100%;
+}
+#showcase .container-fluid{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+
+#showcase .carousel-txt-container{
+	position: relative;
+	width: 50%;
+	height: 320px;
+	min-height: 320px;
+	left: 10%;
+	top: 50%;
+	color: white;
+	overflow: hidden;
+	transform: translateY(-50%);
+}
+#showcase .carousel-txt-container p{
+	position: relative;
+	padding: 3px 0 3px 5px;
+	width: 120px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #08b7fe;
+}
+#showcase .visible-view{
+	position: relative;
+	width: auto;
+	height: 250px;
+	overflow: hidden;
+}
+#showcase .carousel-txt-container .carousel-txt-wrap{
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#showcase .carousel-txt-container .carousel-txt-wrap div{
+	position: relative;
+	height: 250px;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: 0.3s ease-in-out;
+}
+#showcase .carousel-txt-container .carousel-txt-wrap div h3{
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1;
+	text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+#showcase .carousel-txt-container .carousel-txt-wrap div h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 4.5em;
+	line-height: 1;
+	text-shadow: 2px 1px rgba(0,0,0,0.3);
+}
+#showcase .carousel-txt-container a{
+	position: relative;
+	background: white;
+	color: #00a5e8 !important;
+	font-size: 12px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	margin-bottom: 10px;
+	padding: 5px 18px;
+}
+#showcase .carousel-txt-container a i{
+	position: relative;
+	font-size: 18px;
+	margin-left: 6px;
+	display: inline-block;
+}
+
+
+#showcase .container-fluid .dots{
+	position: absolute;
+	left: 30px;
+	top: 50%;
+    width: auto;
+    height: 50px;
+    transform: translateY(-25px);
+}
+#showcase .container-fluid .dots span{
+	position: relative;
+	display: block;
+	width: 8px;
+	height: 8px;
+	margin: 8px 0;
+	border-radius: 50%;
+	transition: 0.2s ease-in-out;
+	background: rgba(255,255,255,0.7);
+}
+#showcase .container-fluid .dots .active{
+	background: #08b7fe;
+}
+
+#clinic-info{
+	position: relative;
+	height: auto;
+    width: 100%;
+    color: white;
+    background: url('./images/clinic-info.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#clinic-info .box{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	min-height: 300px;
+	padding: 30px;
+	background: red;
+	background: rgba(4,165,212,0.9);
+}
+#clinic-info #box-two{
+	background: rgba(8,183,254,0.9);
+}
+#clinic-info .box h4{
+	text-align: center;
+}
+#clinic-info .box div{
+	position: relative;
+	width: 305px;
+	height: auto;
+	left: 50%;
+	transform: translateX(-152px);
+	margin-top: 50px;
+}
+#clinic-info .box div i{
+	margin-right: 10px;
+}
+#clinic-info .box div td{
+	padding: 5px 0;
+}
+#clinic-info #box-three div{
+	width: 280px;
+	transform: translateX(-140px);
+	padding: 0 10px;
+}
+#clinic-info .box .opening-time{
+	padding-left: 60px;
+}
+
+#about{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+}
+#about .row img{
+	width: 100%;
+}
+#about .row h2{
+	margin-bottom: 20px;
+}
+#about .row div{
+	padding-left: 40px;
+}
+#about span{
+	color: #08b7fe;
+}
+
+#provider{
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	background: url('../images/provider-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#provider:before{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+}
+#provider .container{
+	position: relative;
+	padding: 110px 0;
+	z-index: 5;
+}
+#provider .container p{
+	margin-top: 20px;
+	padding: 0 22%;
+	color: #eaeaea;
+}
+#provider .container button{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	padding: 5px 18px;
+	margin-top: 18px;
+	background: #08b7fe;
+}
+
+#services{
+	position: relative;
+	padding: 70px 0;
+	background: url('./images/services.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#services:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,0.93);
+}
+#services h2{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #08b7fe;
+}
+#services h1{
+	text-transform: uppercase;
+}
+#services .service-txt{
+    padding-right: 0px;
+}
+#services a{
+	position: relative;
+	text-decoration: none;
+	color: white;
+    top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+	background: #08b7fe;
+	padding: 7px 18px;
+}
+#services li{
+	margin: 15px 0;
+}
+#services li .inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+	transition: 0.35s ease-in-out;
+	box-shadow: 0 0 22px 0 rgba(0,0,0,0);
+}
+#services li .inner:after{
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(4,165,212,0.7);
+	transition: 0.25s ease-in-out;
+}
+#services li .inner img{
+	width: 100%;
+	transition: 0.45s ease-in-out;
+}
+#services li .inner div{
+	position: absolute;
+	left: 0;
+	top: 72%;
+	width: 100%;
+	height: 100%;
+	color: white;
+	padding-left: 10px;
+	padding-top: 15px;
+	z-index: 10;
+	transition: 0.4s ease-in-out;
+	background: rgba(4,165,212,0.9);
+}
+#services li .inner div h5{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 0;
+}
+#services li .inner div p{
+	font-size: 12px;
+	padding-right: 10px;
+}
+#services li .inner:hover{
+	box-shadow: 0 0 22px 0 rgba(0,0,0,0.5);
+}
+#services li .inner:hover:after{
+	top: 0;
+}
+#services li .inner:hover div{
+	top: 5%;
+	background: rgba(4,165,212,0.2);
+}
+#services li .inner:hover img{
+	filter: blur(6px);
+}
+
+#patient-success{
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	background: #0c9ef8;
+}
+#patient-success .row div{
+	padding: 70px 0;
+}
+#patient-success .row div i{
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	border: 1px solid white;
+}
+#patient-success .row div p{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 12px;
+}
+
+#doctors{
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 70px 0;
+    background: url('./images/services.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#doctors:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,0.93);
+}
+
+#doctors #doctors-top-column p{
+	padding: 0 10%;
+}
+#doctors h2{
+	color: #08b7fe;
+	font-weight: bold;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+#doctors h1{
+	line-height: 0.9;
+	text-transform: uppercase;
+}
+#doctors .dentist-txt-btn{
+	position: relative;
+	text-decoration: none;
+	color: white;
+    top: 15px;
+    font-size: 13px;
+    font-weight: 600;
+	background: #08b7fe;
+	padding: 7px 18px;
+}
+#doctors ul{
+	position: relative;
+	height: 100%;
+	margin-top: 70px;
+}
+#doctors li{
+	position: relative;
+	margin: 15px 0;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+#doctors li .inner{
+	position: relative;
+	width: 100%;
+	height: 370px;
+	overflow: hidden;
+	text-align: center;
+	transition: 0.35s ease-in-out;
+	box-shadow: 0 0 22px 0 rgba(0,0,0,0);
+}
+#doctors li .inner:after{
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,0.1);
+	transition: 0.25s ease-in-out;
+}
+#doctors li .inner img{
+	position: relative;
+	width: 100%;
+	height: 70%;
+	transition: 0.45s ease-in-out;
+}
+#doctors li .inner .box-txt{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 30%;
+	z-index: 10;
+	color: white;
+	padding-top: 15px;
+	transition: 0.4s ease-in-out;
+	background: rgba(4,165,212,1);
+}
+#doctors li .inner .box-txt h5{
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 0.6;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#doctors li .inner .box-txt p{
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 12px;
+	text-transform: uppercase;
+	transition: 0.3s ease-in-out;
+}
+#doctors .inner .box-txt div{
+	position: relative;
+	width: 100%;
+	left: 0;
+	margin-top: 50px;
+	padding: 10px 0;
+	transition: 0.3s ease-in-out;
+}
+#doctors .inner .box-txt div i{
+	margin: 0 3px;
+	padding: 6px 8px;
+	color: white;
+	font-size: 11px;
+	background: #08b7fe;
+}
+#doctors .inner .box-txt div i:hover{
+	color: #08b7fe;
+	background: white;
+}
+#doctors li .inner:hover{
+	box-shadow: 0 0 22px 0 rgba(0,0,0,0.5);
+}
+#doctors li .inner:hover:after{
+	top: 0;
+}
+#doctors li .inner:hover img{
+	filter: blur(6px);
+}
+#doctors li .inner:hover .box-txt{
+	height: 40%;
+}
+#doctors li .inner:hover .box-txt p{
+	margin-top: 10px;
+}
+#doctors li .inner:hover .box-txt div{
+	margin-top: 13px;
+}
+
+#additional-section{
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: white;
+}
+#additional-section .row div{
+    position: relative;
+	width: 100%;
+    height: 300px;
+    background: #08b7fe;
+}
+#additional-section .row div div{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	top: 50%;
+	transform: translateY(-90px);
+	padding: 0;
+	background: transparent;
+}
+#additional-section .row div div i{
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+#additional-section .row div div h4{
+	text-transform: uppercase;
+	font-size: 19px;
+}
+#additional-section .row div div p{
+	font-size: 14px;
+	padding: 0 10px;
+}
+#additional-section .row div div a{
+	position: relative;
+	text-decoration: none;
+	color: #00a5e8 !important;
+    top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+	background: white;
+	padding: 7px 18px;
+}
+#additional-section .row div:nth-child(2){
+	background: rgb(4,165,212);
+}
+#additional-section .row img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#testimonials{
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	padding: 70px 0;
+	text-align: center;
+	background: url('../images/ooltewah-dentist.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#testimonials:before{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+}
+#testimonials h3{
+	position: relative;
+	margin-bottom: 40px;
+	text-transform: capitalize;
+}
+#testimonials .row{
+	padding: 40px 0;
+}
+#testimonials #patien{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#testimonials #patient .inner{
+	position: relative;
+	width: 100%;
+	height: 320px;
+	padding: 40px 30px;
+    background: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 65%, 0 100%);
+}
+#testimonials #patient .inner i{
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	font-size: 20px;
+	color: #08b7fe;
+}
+#testimonials #patient .inner p{
+	position: relative;
+	color: black;
+}
+#testimonials #patient img{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-top: -180px;
+	border-radius: 50%;
+	border: 4px solid white;
+	filter: drop-shadow(0 0 10px rgba(4,165,212,0.8));
+}
+#testimonials #patient h5{
+	margin-top: -35px;
+}
+
+#brand{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px 0; 
+  text-align: center;
+}
+#brand h3{
+	text-transform: capitalize;
+	font-weight: 800;
+	font-family: 'lato';
+}
+#brand p{
+	padding: 0 20%;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+#brand .container{
+	padding: 20px 0;
+}
+
+#location{
+	position: relative;
+	width: 100%;
+	height: 90vh;
+}
+#location iframe{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+#contact-banner{
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+	padding: 50px 20px;
+	background: #08b7fe;
+	text-align: center;
+}
+#contact-banner h5{
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 18px;
+}
+#contact-banner a{
+	position: relative;
+	color: #00a5e8 !important;
+    font-size: 13px;
+	padding: 7px 18px;
+    font-weight: 600;
+	background: white;
+	text-decoration: none;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	padding-top: 30px;
+	height: auto;
+	color: white;
+	background: #010913;
+}
+footer h5{
+	text-transform: uppercase;
+	font-size: 17px;
+    margin-bottom: 20px;
+}
+footer h5 span{
+	color: #08b7fe;
+}
+footer .upper-layer{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 50px 30px;
+}
+footer .upper-layer div{
+	margin: 20px 0;
+}
+footer .upper-layer #first-column p{
+	font-size: 12px;
+	color: #dadada;
+	padding-right: 40px;
+}
+footer .upper-layer #first-column .social-links{
+	position: relative;
+	margin-top: 20px;
+}
+footer .upper-layer #first-column .social-links a:nth-child(1) i{
+	padding: 5px 10px;
+	margin-left: 0;
+}
+footer .upper-layer #first-column .social-links a i{
+	margin: 0 3px;
+	padding: 5px 8px;
+	background: #1a1a1a;
+}
+footer .upper-layer #first-column .social-links a:hover i{
+	background: #08b7fe;
+}
+footer .upper-layer li{
+	height: 20px;
+	font-size: 13px;
+	margin: 5px 0;
+}
+footer .upper-layer li p{
+	position: relative;
+	display: inline-block;
+}
+footer .upper-layer li span{
+	position: absolute;
+	right: 33px;
+}
+footer .upper-layer .address div{
+	height: 25px;
+	margin: 12px 0;
+}
+footer .upper-layer .address p{
+	display: inline-block;
+	font-size: 14px;
+	color: #eaeaea;
+	font-weight: 630;
+}
+footer .upper-layer .address span{
+	color: #eaeaea;
+	font-size: 13px;
+	padding-left: 5px;
+	font-weight: normal;
+}
+footer .upper-layer .insta-gallery{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+footer .upper-layer .insta-gallery span{
+	color: #08b7fe;
+}
+footer .upper-layer .insta-gallery img{
+	width: 23.5%;
+	height: 25%;
+}
+footer .bottom-layer{
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 30px 0 40px 0;
+	border: 1px solid #1a1a1a;
+	background: #01060c;
+}
+footer .bottom-layer p{
+	position: absolute;
+	left: 30px;
+	font-size: 12px;
+    color: #dadada;
+	display: inline-block;
+}
+footer .bottom-layer p span{
+	color: #08b7fe;
+}
+footer .bottom-layer div{
+	position: absolute;
+	right: 30px;
+	margin-top: -7px;
+	display: inline-block;
+}
+footer .bottom-layer .divider{
+	display: none;
+}
+footer .bottom-layer div a{
+    color: #c2c2c2 !important;
+    margin: 0 6px;
+	font-size: 10px;
+	padding-right: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-right: 1.3px solid #c2c2c2 !important;
+}
+footer .bottom-layer div a:last-child{
+	padding-right: 0;
+	border-right: none !important;
+}
+#scroll-top-btn{
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	z-index: 10;
+	width: auto;
+	height: auto;
+}
+#scroll-top-btn i{
+	height: 45px;
+	color: #eaeaea;
+	background: #08b7fe;
+	padding: 10px 12px;
+	font-size: 40px;
+	cursor: pointer;
+	box-shadow: 0 0 14px 0 rgba(0,0,0,0.3);
+}
+
+
+@media (max-width: 1200px) and (min-width: 993px){
+#doctors .container {
+    max-width: 1340px !important;
+}
+}
+@media (max-width: 992px) and (min-width: 767px){
+#testimonials .container {
+    max-width: 980px !important;
+}
+}
+@media (max-width: 900px) and (min-width: 767px){
+#testimonials #patient .inner p{
+	font-size: 13px;
+	margin-top: 10px;
+}
+}
+@media screen and (max-width: 1000px){
+#clinic-info .box div{
+	width: 250px;
+	padding: 0 10px;
+	transform: translateX(-125px);
+}
+#clinic-info #box-three div{
+	width: 250px;
+	transform: translateX(-125px);
+}
+#clinic-info .box .opening-time{
+	padding-left: 30px;
+}
+footer .bottom-layer{
+	padding: 30px 0 20px 0;
+}
+footer .bottom-layer div{
+	position: relative;
+	display: block;
+	left: 0;
+	margin-top: 10px;
+}
+footer .bottom-layer p{
+	position: relative;
+	display: block;
+	left: 0;
+	margin-top: 25px;
+}
+}
+@media screen and (max-width: 992px){
+#showcase .contact-btn{
+	display: none;
+}
+nav{
+	width: 100%;
+	left: 0;
+}
+#showcase .carousel-txt-container{
+	width: 80%;
+}
+.navbar-expand-lg .navbar-collapse{
+	justify-content: center;
+	padding-right: 0;
+}
+#about .row div{
+	padding-left: 10px;
+}
+}
+@media screen and (max-width: 767px){
+header .container .row div:last-child i{
+	display: none;
+}
+nav{
+	padding: 5px 35px !important;
+}
+#showcase{
+	height: 80vh;
+	min-height: 500px;
+	overflow: hidden;
+}
+#showcase:after{
+	background: rgba(0,0,0,0.35);
+}
+#showcase .carousel-txt-container{
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+#showcase .carousel-txt-container p {
+    left: 50%;
+    transform: translateX(-50%);
+}
+#showcase .carousel-txt-container .carousel-txt-wrap div{
+	padding: 0 20px;
+}
+#showcase .carousel-txt-container .carousel-txt-wrap div h1{
+	font-size: 3.7em;
+}
+#showcase .container-fluid .dots{
+	left: 10px;
+	top: 50%;
+    height: 50px;
+    transform: translateY(-25px);
+}
+#about .row div{
+	margin-top: 30px;
+	text-align: center;
+}
+#provider .container p{
+	padding: 0 12%;
+}
+#services .row .first-column{
+	text-align: center;
+	margin-bottom: 60px;
+}
+#patient-success .row div{
+	padding: 40px 0;
+}
+#clinic-info .box div{
+	width: 350px;
+	text-align: center;
+	transform: translateX(-175px);
+}
+#clinic-info #box-three div{
+	width: 350px;
+	text-align: left;
+	transform: translateX(-175px);
+}
+#clinic-info .box .opening-time{
+	padding-left: 130px;
+}
+#doctors{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#doctors #doctors-gallery-column{
+    margin-top: 80px;
+}
+#testimonials .container{
+	padding-right: 50px !important;
+	padding-left: 50px !important;
+}
+#testimonials #patient .inner{
+	margin-top: 50px;
+}
+.testimonial-first-column .inner{
+	margin-top: 0 !important;
+}
+#brand p{
+	padding: 0 7%;
+}
+#contact-banner h5{
+	display: block;
+	margin-right: 0;
+}
+#contact-banner a{
+	top: 15px;
+}
+footer .bottom-layer p{
+	line-height: 1.7;
+}
+footer .bottom-layer .divider{
+	display: block;
+}
+}
+@media (max-width: 576px){
+header{
+	display: none !important;
+}
+#doctors li{
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+}
+#doctors li .inner{
+	height: 470px;
+}
+#doctors li .inner img{
+	height: 75%;
+}
+#doctors li .inner .box-txt{
+	height: 25%;
+	padding-top: 15px;
+}
+#doctors li .inner:hover .box-txt{
+	height: 30%;
+}
+footer h5{
+	text-align: center;
+}
+footer .upper-layer #first-column{
+	text-align: center;
+}
+footer .upper-layer #first-column p{
+	padding-right: 0;
+}
+footer .upper-layer .address{
+	text-align: center;
+}
+}
+@media (max-width: 420px){
+#doctors li{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+#doctors li .inner{
+	height: 420px;
+}
+#doctors li .inner:hover .box-txt{
+	height: 35%;
+}
+#about-page-doctors li .inner{
+	height: auto !important;
+	flex-direction: column;
+}
+#about-page-doctors li .inner img{
+	min-width: 100%;
+}
+#about-page-doctors li .inner .box-txt{
+	min-width: 100%;
+}
+#testimonials .container{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+}
